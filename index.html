@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilemas Digitais: Desinformação e Deepfakes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dilemas Digitais: O Impacto das Fake News e Deepfakes</h1>
+    </header>
+
+    <main class="container">
+        <!-- O QUE É -->
+        <section class="card">
+            <h2>O que são Notícias Falsas e Deepfakes?</h2>
+            <p><strong>Notícias Falsas (Fake News)</strong> são informações fabricadas ou distorcidas divulgadas como verdades para enganar o público, manipular opiniões ou gerar lucro. Já as <strong>Deepfakes</strong> usam Inteligência Artificial para manipular áudios e vídeos, fazendo pessoas parecerem dizer ou fazer coisas que nunca fizeram.</p>
+            <p>Na sociedade brasileira, essa combinação compromete a democracia, destrói reputações e afeta diretamente a saúde pública e as relações pessoais.</p>
+        </section>
+
+        <!-- REPORTAGEM REAL -->
+        <section class="card">
+            <h2>Caso Real no Brasil: Os Impactos da Desinformação</h2>
+            <div class="caso-midia">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pope_Francis_in_2021.jpg/800px-Pope_Francis_in_2021.jpg" alt="Imagem Ilustrativa do Papa Francisco">
+                <p class="legenda">O caso da foto gerada por IA do Papa Francisco usando uma jaqueta moderna (*Puffer Jacket*) em 2023 tornou-se o marco global da popularização das Deepfakes.</p>
+            </div>
+            <p>No Brasil, a disseminação de mídias manipuladas e fake news gera consequências reais na vida das pessoas. Um caso de grande repercussão ocorreu no Ceará, onde imagens alteradas e conteúdos falsos gerados por IA circulam atribuindo falsos crimes a cidadãos comuns, levando a ameaças reais e linchamentos virtuais.</p>
+            <p>Além do impacto individual, relatórios da *Agência Lupa* e da *Aos Fatos* mostram que golpistas usam vídeos adulterados com IA de figuras públicas brasileiras para aplicar fraudes financeiras na população idosa e vulnerável.</p>
+        </section>
+
+        <!-- CARTILHA EM FORMATO DE FOLHETO (PAGE FLIP) -->
+        <section class="card">
+            <h2>Cartilha Interativa: Como se Proteger</h2>
+            <p>Clique nas pontas ou arraste para folhear a cartilha abaixo:</p>
+
+            <div class="flipbook-container">
+                <div id="my-flipbook">
+                    <!-- Capa -->
+                    <div class="page page-cover">
+                        <h3>Guia Prático de Sobrevivência Digital</h3>
+                        <p>Como identificar e combater Notícias Falsas e Deepfakes</p>
+                        <small>Passe a página ➔</small>
+                    </div>
+
+                    <!-- Página 1 -->
+                    <div class="page">
+                        <span class="page-num">1</span>
+                        <h4>Regra 1: Cheque a Fonte</h4>
+                        <p>Nunca compartilhe informações baseadas apenas em títulos chamativos ou mensagens enviadas em aplicativos de conversa sem link confiável.</p>
+                        <ul>
+                            <li>Verifique se o site tem endereço oficial.</li>
+                            <li>Busque a notícia em portais de jornalismo conhecidos.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Página 2 -->
+                    <div class="page">
+                        <span class="page-num">2</span>
+                        <h4>Regra 2: Como Detectar Deepfakes</h4>
+                        <p>Vídeos e fotos gerados por Inteligência Artificial costumam deixar pequenos rastros visuais:</p>
+                        <ul>
+                            <li>Piscar inconsistente dos olhos.</li>
+                            <li>Bordas embaçadas na pele, cabelo ou dentes.</li>
+                            <li>Som da voz robótico ou dessincronizado com os lábios.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Página 3 -->
+                    <div class="page">
+                        <span class="page-num">3</span>
+                        <h4>Regra 3: Ferramentas de Checagem</h4>
+                        <p>Utilize a tecnologia a seu favor para confirmar fatos:</p>
+                        <ul>
+                            <li><strong>Google Imagens:</strong> Faça a busca reversa da imagem para achar a origem.</li>
+                            <li>Consulte agências brasileiras de verificação: <em>Lupa, Aos Fatos, Comprova e Fato ou Fake</em>.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Contracapa -->
+                    <div class="page page-cover">
+                        <h3>Pense Antes de Compartilhar!</h3>
+                        <p>A responsabilidade por um ambiente digital seguro é de todos nós.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JS da Biblioteca PageFlip -->
+    <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.js"></script>
+    <!-- Nosso JS customizado -->
+    <script src="script.js"></script>
+</body>
+</html>
